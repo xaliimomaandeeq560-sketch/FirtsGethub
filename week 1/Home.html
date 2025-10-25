@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hami MiniMarket</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo"><img src="images/logo.png" alt="Hami MiniMarket Logo" /></div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" style="background-image: url('images/banner.jpg');">
+    <div class="hero-text">
+      <h1>Fresh. Local. Trusted.</h1>
+      <p>Your daily source for organic fruits & vegetables.</p>
+      <button class="btn">Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Product Showcase -->
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/apple.jpg" alt="Apple" />
+        <h3>Apples</h3>
+      </div>
+      <div class="card">
+        <img src="images/banana.jpg" alt="Banana" />
+        <h3>Bananas</h3>
+      </div>
+      <div class="card">
+        <img src="images/tomato.jpg" alt="Tomato" />
+        <h3>Tomatoes</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Hami MiniMarket connects our community with fresh, local, and sustainable produce at fair prices.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required /><br></br>
+      <input type="email" id="email" placeholder="Your Email" required /><br></br>
+      <textarea id="message" placeholder="Your Message" required></textarea><br></br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Hami MiniMarket | Follow us on  
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+    </p>
+    <button id="backToTop">⬆ Back to Top</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
